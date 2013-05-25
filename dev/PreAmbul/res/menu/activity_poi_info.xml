@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item android:id="@+id/edit_favorite" android:title="@string/name_button_edit" android:icon="@android:drawable/ic_menu_manage"></item>
+    <item android:id="@+id/delete_favorite" android:title="@string/name_button_delete" android:icon="@android:drawable/ic_menu_close_clear_cancel"></item>
+</menu>

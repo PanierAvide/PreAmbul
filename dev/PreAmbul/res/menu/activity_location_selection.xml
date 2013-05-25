@@ -1,0 +1,6 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item android:id="@+id/install" android:title="@string/name_button_install" android:icon="@android:drawable/ic_menu_add"></item>
+    <item android:id="@+id/uninstall" android:title="@string/name_button_uninstall" android:icon="@android:drawable/ic_menu_close_clear_cancel"></item>
+    <item android:id="@+id/update" android:title="@string/name_button_update" android:icon="@android:drawable/ic_menu_rotate"></item>
+    <item android:id="@+id/options" android:title="@string/menu_settings" android:icon="@android:drawable/ic_menu_preferences"></item>
+</menu>

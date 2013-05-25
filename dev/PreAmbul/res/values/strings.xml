@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Titles -->
+		<!-- General -->
+		<string name="app_name">PreAmbul</string>
+		<string name="hello_world">Hello world!</string>
+		<string name="name_titlebar_text_default">DEFAULT</string>
+		<string name="title_activity_preferences">Préférences</string>
+
+		<!-- Locations -->
+		<string name="title_activity_location_install">Installer des territoires</string>
+		<string name="title_activity_location_selection">Choisissez le territoire à charger</string>
+		<string name="title_activity_location_uninstall">Désinstaller des territoires</string>
+		<string name="title_activity_location_update">Mettre à jour des territoires</string>
+
+		<!-- Map -->
+		<string name="title_activity_SlippyMapActivity">Carte</string>
+
+		<!-- Splashscreen -->
+		<string name="title_activity_splashscreen">PreAmbul</string>
+
+		<!-- Excursions -->
+		<string name="title_activity_excursion_info">Informations</string>
+		<string name="title_activity_excursion_list">Liste des randonnées</string>
+
+    <!-- Dialog strings -->
+		<!-- Titles -->
+		<string name="dialog_title_no_connection">Erreur de connexion</string>
+		<string name="dialog_title_no_gps">GPS désactivé</string>
+		<string name="dialog_title_install_photos">Installation des médias</string>
+
+    <!-- Messages -->
+		<!-- Network -->
+		<string name="message_no_connection">L\'installation de territoires nécessite une connexion internet active.</string>
+		<string name="message_install_photos">Désirez-vous installer les photos et sons de ces modules?</string>
+		<string name="message_unreachable_server">Le serveur des territoires est injoignable.</string>
+		<string name="message_running_download">Téléchargement en cours.</string>
+		<string name="message_available_update">Des mises à jours sont disponibles !</string>
+		<string name="message_network_check">Tentative de connexion</string>
+
+		<!-- Location -->
+		<string name="message_no_installable_location">Aucun territoire n\'est installable.</string>
+		<string name="message_no_installed_locations">Aucun territoire n\'est installé.</string>
+		<string name="message_no_updates_available">Tous les territoires sont à jour.</string>
+		<string name="message_install_running">Installation des territoires en cours.</string>
+		<string name="message_no_checked_installable_location">Vous devez choisir au moins une ville à installer en la cochant</string>
+		<string name="message_location_creation_error">Erreur durant la création des listes de territoires</string>
+		<string name="message_reading_location_error">Erreur durant la lecture des listes de territoires</string>
+		<string name="message_not_xml_error">Erreur: les listes de territoires ne sont pas des fichiers XML</string>
+		<string name="message_location_download_error">Erreur lors du téléchargement de </string>
+		<string name="message_location_uninstall_error">Erreur lors de la désinstallation de </string>
+		<string name="message_location_save_error">Erreur lors de la sauvegarde des listes de territoires</string>
+		<string name="message_uninstall_running">Désinstallation des territoires en cours.</string>
+		<string name="message_no_checked_uninstallable_location">Vous devez choisir au moins une ville à désinstaller en la cochant</string>
+		<string name="message_location_update">Mise à jour des territoires en cours.</string>
+		<string name="message_no_checked_updatable_location">Vous devez choisir au moins une ville à mettre à jour en la cochant</string>
+		<string name="message_location_install_finished">Les territoires ont bien été installés</string>
+		<string name="message_location_update_finished">Les territoires ont bien été mis à jour.</string>
+		<string name="message_location_uninstall_finished">Les territoires ont bien été désinstallés</string>
+		<string name="message_location_install_error">Erreur lors de l\'installation de</string>
+		<string name="message_no_installed_location_welcome">Aucun territoire installé. Faites Menu &gt; Installer pour en ajouter</string>
+		<string name="message_location_package_not_found_error">Les données du territoire n\'ont pas pu être téléchargées.</string>
+
+		<!-- Map -->
+		<string name="message_map_not_exists_error">La carte du territoire est introuvable.</string>
+		<string name="message_map_id_error">La carte n\'a pu être chargée.</string>
+		<string name="message_no_external_memory_error">Aucune mémoire externe n\'a été trouvée.</string>
+		<string name="message_map_cant_load_overlays">Les éléments n\'ont pas pu être affichés</string>
+		<string name="message_map_search_position">Recherche de la localisation en cours</string>
+		<string name="message_map_position_out_of_bounds">Vous êtes localisé en dehors de la carte</string>
+		<string name="message_gps_not_enabled">La géolocalisation nécessite que le GPS soit actif.</string>
+		<string name="message_map_navigation_error">Impossible d\'afficher les instructions de navigation</string>
+		<string name="message_map_poi_load_error">Impossible de charger les points d\'intérêt</string>
+		<string name="message_map_favorite_load_error">Impossible de charger les favoris</string>
+		<string name="message_compass_not_accurate">Boussole non calibrée</string>
+
+		<!-- Excursions -->
+		<string name="message_excursions_xml_not_found">La liste des randonnées est introuvable</string>
+		<string name="message_excursions_read_error">Erreur lors de la lecture de la liste</string>
+		<string name="message_excursion_not_found">Randonnée introuvable</string>
+		<string name="message_instruction_not_found">Aucune instruction</string>
+		<string name="message_pois_not_found">Aucun point d\'intérêt</string>
+		<string name="message_photos_not_found">Aucune photo</string>
+
+		<!-- Others -->
+		<string name="message_wait">Veuillez patienter</string>
+
+		<!-- Menus -->
+		<string name="menu_settings">Options</string>
+		<string name="menu_where_am_i">Où suis-je</string>
+		<string name="menu_favorites">Favoris</string>
+
+		<!-- Search bar -->
+		<string name="name_activities_searchbar">Recherche</string>
+
+		<!-- Items -->
+		<string name="name_ListItem_Text3">(Mise à jour disponible)</string>
+		<string name="name_ListItem_Text2">Version X</string>
+		<string name="name_ListItem_Text1">Territoire X</string>
+
+		<!-- Descriptions -->
+		<string name="description_ListItem_Logo">Location logo</string>
+		<string name="description_logo">PreAmbul Logo</string>
+
+		<!-- Buttons -->
+		<string name="name_button_return">Retour</string>
+		<string name="name_button_install">Installer</string>
+		<string name="name_button_uninstall">Désinstaller</string>
+		<string name="name_button_update">Mise à jour</string>
+		<string name="name_button_cancel">Annuler</string>
+		<string name="name_button_excursion">Parcours</string>
+		<string name="name_button_no_excursions">Cacher tous les parcours</string>
+		<string name="name_button_all_excursions">Afficher tous les parcours</string>
+		<string name="name_button_load_excursion">Lancer ce parcours</string>
+		<string name="name_button_types">Types</string>
+		<string name="name_button_location_config">Configurer le GPS</string>
+		<string name="name_button_yes">Oui</string>
+		<string name="name_button_no">Non</string>
+		<string name="name_button_add_photo">Ajouter une photo</string>
+		<string name="name_button_place">Indiquer l\'emplacement</string>
+		<string name="name_button_validate">Valider</string>
+		<string name="name_button_display_on_map">Afficher sur la carte</string>
+		<string name="settings_button_text">Paramètres de connexion</string>
+		<string name="name_button_check_all">Tout cocher</string>
+		<string name="name_button_uncheck_all">Tout décocher</string>
+		
+
+		<!-- Tabs -->
+		<string name="name_tab_description">Description</string>
+		<string name="name_tab_poi">Points d\'intérêt</string>
+		<string name="name_tab_instructions">Instructions</string>
+		<string name="name_tab_pictures">Photos</string>
+
+		<!-- Locomotions -->
+		<string name="name_type">Type</string>
+		<string name="name_difficulty">Difficulté</string>
+		<string name="name_time">Durée</string>
+		<string name="name_length">Distance</string>
+		<string name="name_description">Description</string>
+		<string name="name_locomotion_types">Types</string>
+		<string name="name_locomotion_bicycle">Vélo</string>
+		<string name="name_locomotion_feet">À pied</string>
+		<string name="name_locomotion_kayak">Kayak</string>
+
+		<!-- POIs -->
+		<string name="name">Nom</string>
+		<string name="name_coordinates">Coordonnées</string>
+		<string name="name_web">Lien web</string>
+		<string name="message_poi_not_found">Point d\'intérêt introuvable</string>
+		
+		<!-- Favorites -->
+		<string name="title_activity_favorite_list">Favoris</string>
+		<string name="message_favorites_xml_not_found">La liste des favoris est introuvable</string>
+		<string name="message_favorites_read_error">Erreur lors de la lecture de la liste</string>
+		<string name="message_favorite_not_found">Favori introuvable</string>
+		<string name="message_favorites_no_one">Aucun favori: ajoutez des favoris depuis la carte ou marquez des points d\'intérêts comme favori</string>
+		<string name="message_favorite_position_error">Erreur lors de la sélection de l\'emplacement</string>
+		<string name="name_button_add_favorite">Ajouter un favori</string>
+		<string name="message_favorite_creation_error">Erreur lors de la création du favori</string>
+		<string name="message_favorite_delete_error">Erreur lors de la suppression du favori</string>
+		<string name="name_button_edit">Modifier</string>
+		<string name="name_button_delete">Supprimer</string>
+		<string name="message_favorite_deleted">Favori supprimé</string>
+		
+		<!-- Favorites Edit -->
+		<string name="title_activity_favorite_edit">Éditer un favori</string>
+		<string name="message_no_camera">Pas de caméra disponible</string>
+		<string name="message_favorite_no_name">Vous n\'avez pas indiqué de nom</string>
+		<string name="message_favorite_no_point">Vous n\'avez pas choisi d\'emplacement sur la carte</string>
+		<string name="name_latitude">Latitude</string>
+		<string name="name_longitude">Longitude</string>
+
+		<!-- Preferences -->
+		<string name="title_activity_poi_preference">Affichage des points d\'intérêt</string>
+		<string name="name_button_toggle">Tout cocher/décocher</string>    
+		
+		<!-- Categories -->
+		<string name="prefs_cat_general">Paramètres généraux</string>
+		<string name="prefs_cat_map">Carte</string>
+		<string name="prefs_cat_excursions">Randonnées</string>
+		<string name="prefs_cat_pois">Points d\'intérêts</string>
+
+		<!-- Items & descriptions -->
+		<string name="prefs_item_updates">Vérifier les mises à jour</string>
+		<string name="prefs_item_updates_desc">Vérifier si une nouvelle version d\'un territoire est disponible au lancement de l\'application</string>
+		<string name="prefs_item_compass">Afficher la boussole</string>
+		<string name="prefs_item_compass_desc">Afficher la boussole sur la carte (si disponible)</string>
+		<string name="prefs_item_bookmarks_button">Afficher le bouton Favoris</string>
+		<string name="prefs_item_bookmarks_button_desc">Afficher le bouton d\'ajout d\'un favori sur la carte</string>
+		<string name="prefs_item_excursions_before_map">Afficher les randonnées avant la carte</string>
+		<string name="prefs_item_excursions_before_map_desc">Afficher l\'écran de sélection des randonnées avant la carte lors du lancement d\'un territoire</string>
+		<string name="title_activity_poi_info">PoiInfoActivity</string>
+		<string name="prefs_item_excursions_distance_poi">Distance des points d\'intérêts proches</string>
+		<string name="prefs_item_excursions_distance_poi_desc">Sélectionner le rayon pour l\'affichage des points d\'intérêts proches d\'un parcours (en mètres)</string>
+
+</resources>

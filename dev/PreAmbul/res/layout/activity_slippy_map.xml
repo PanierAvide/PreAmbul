@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:slider="http://schemas.android.com/apk/res/net.line2soft.preambul"
+    android:id="@+id/RootView"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent">
+
+	<org.mapsforge.android.maps.MapView 
+        android:id="@+id/mapView"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" />
+	
+	<TextView
+	    android:id="@+id/mapPointer"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_centerInParent="true"
+	    android:text="+"
+	    android:textColor="@color/Red"
+	    android:textSize="70sp"
+	    android:textStyle="bold" />
+	
+	<RelativeLayout
+	    android:id="@+id/list_item"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_alignParentTop="true"
+  		android:layout_marginTop="3dp"
+	    android:layout_alignParentRight="true"	    
+	    android:layout_marginRight="165dp" >
+
+  		<ImageButton
+  		    android:id="@+id/imageButton1"
+  		    android:layout_width="78dp"
+  		    android:layout_height="38dp"
+  		    android:scaleType="fitCenter"
+	        android:background="@android:color/transparent"
+  		    android:src="@drawable/excursion_button" />
+		
+  		<TextView
+  		    android:id="@+id/excursionButton"
+  		    android:layout_width="wrap_content"
+  		    android:layout_height="wrap_content"
+  		    android:layout_marginLeft="12dp"
+  		    android:layout_marginTop="9dp"
+  		    android:background="@android:color/transparent"
+  		    android:text="@string/name_button_excursion"
+  		    android:textColor="@color/Black" />
+	
+	</RelativeLayout>
+	
+	<net.line2soft.preambul.views.CompassView
+	    android:id="@+id/compass"
+	    android:layout_width="45dp"
+	    android:layout_height="45dp"
+	    android:layout_alignParentLeft="true"
+	    android:layout_alignParentTop="true" />
+	
+	<net.line2soft.preambul.views.CompassView
+	    android:id="@+id/compassBig"
+	    android:layout_width="200dp"
+	    android:layout_height="200dp"
+	    android:layout_centerHorizontal="true"
+	    android:layout_centerVertical="true"
+	    android:layout_margin="50dp" />
+   
+	<net.line2soft.preambul.views.SlidingDrawer
+	    android:id="@+id/drawer"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:visibility="gone"
+        slider:SlidingDrawer_handle="@+id/handle"
+        slider:SlidingDrawer_content="@+id/content"
+        slider:SlidingDrawer_maxHeight="100dip">
+
+	    <ImageView
+	        android:id="@id/handle"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:scaleType="fitXY"
+	        android:src="@drawable/tray_handle_normal" />
+	    
+		<RelativeLayout
+		    android:id="@id/content"
+		    android:layout_width="match_parent"
+		    android:layout_height="match_parent">
+		
+		     <android.support.v4.view.ViewPager
+		        android:layout_width="match_parent"
+		        android:layout_height="match_parent"
+    			android:background="@color/background_color"
+    			android:id="@+id/pager_nav"
+		     />
+		
+		     <ImageButton
+		         android:id="@+id/imageRight"
+    			 android:background="@android:color/transparent"
+		         android:layout_width="wrap_content"
+		         android:layout_height="wrap_content"
+		         android:layout_alignParentRight="true"
+		         android:layout_centerVertical="true"
+		         android:src="@drawable/ic_ab_next_holo_light" />
+		
+		     <ImageButton
+		         android:id="@+id/imageLeft"
+    			 android:background="@android:color/transparent"
+		         android:layout_width="wrap_content"
+		         android:layout_height="wrap_content"
+		         android:layout_alignParentLeft="true"
+		         android:layout_centerVertical="true"
+		         android:src="@drawable/ic_ab_back_holo_light" />
+		
+		</RelativeLayout>
+	</net.line2soft.preambul.views.SlidingDrawer>
+
+	<ImageButton
+	    android:id="@+id/favoritesButton"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_alignParentRight="true"
+	    android:layout_centerVertical="true"
+	    android:maxWidth="1dp"
+	    android:maxHeight="1dp"
+	    android:background="@drawable/favorite_add_button_bg"
+	    android:scaleType="center"
+	    android:src="@drawable/favorite_add_button" />
+	
+	<ImageButton
+	    android:id="@+id/imageViewValidate"
+	    android:layout_width="78dp"
+	    android:layout_height="38dp"
+	    android:layout_marginBottom="3dp"
+	    android:layout_alignParentBottom="true"
+	    android:layout_centerHorizontal="true"
+	    android:background="@android:color/transparent"
+	    android:scaleType="fitCenter"
+	    android:src="@drawable/excursion_button" />
+	
+	<TextView
+  		    android:id="@+id/validatePositionButton"
+  		    android:layout_width="wrap_content"
+  		    android:layout_height="wrap_content"
+  		    android:layout_marginBottom="12dp"
+  		    android:layout_alignParentBottom="true"
+	        android:layout_centerHorizontal="true"
+  		    android:background="@android:color/transparent"
+  		    android:text="@string/name_button_validate"
+  		    android:textColor="@color/Black" />
+
+</RelativeLayout>

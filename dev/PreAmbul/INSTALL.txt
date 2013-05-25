@@ -1,0 +1,8 @@
+= Install =
+== APK ==
+If you want to install the application with the compiled APK, you have to put it on your device.
+Then open it in Android, it will be installed automatically.
+
+== From sources ==
+Rand'OSM was created with Eclipse. To compile the project, you need the Android SDK with API 10.
+Open it with Eclipse, and launch it. An APK file will be created in bin/ folder.

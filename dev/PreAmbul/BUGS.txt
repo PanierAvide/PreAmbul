@@ -1,0 +1,7 @@
+= Known bugs =
+== Out of memory errors ==
+Sometimes, when the application loads map or excursion gallery, an out of memory error happens.
+
+== Favorite place's picture ==
+When an user creates a new favorite place, and associates a picture, the picture isn't saved.
+Also, if the user takes a picture and changes the location of the favorite, when he returns on the edit activity the photo is lost.

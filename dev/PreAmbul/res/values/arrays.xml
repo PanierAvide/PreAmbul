@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+    <string-array name="locomotion">
+        <item>feet</item>
+        <item>bicycle</item>
+        <item>kayak</item>
+        <item>horse</item>
+        <item>skate</item>
+        <item>ski</item>
+        <item>snowmobile</item>
+        <item>snowshoe</item>
+        <item>motorcycle</item>
+        <item>canoe</item>
+        <item>boat</item>
+        <item>segway</item>
+        <item>pedalo</item>
+        <item>car</item>
+        <item>roller</item>
+        <item>kick_scooter</item>
+        <item>other</item>
+    </string-array>
+    <string-array name="locomotion_fr">
+        <item>À pied</item>
+        <item>Vélo</item>
+        <item>Kayak</item>
+        <item>À cheval</item>
+        <item>Skate</item>
+        <item>Ski</item>
+        <item>Motoneige</item>
+        <item>Raquettes</item>
+        <item>Moto</item>
+        <item>Canoë</item>
+        <item>Bateau</item>
+        <item>Segway</item>
+        <item>Pédalo</item>
+        <item>Voiture</item>
+        <item>Roller</item>
+        <item>Trottinette</item>
+        <item>Autre</item>
+    </string-array>
+    <string-array name="distance_poi">
+        <item>10</item>
+        <item>50</item>
+        <item>100</item>
+        <item>250</item>
+        <item>500</item>
+        <item>1000</item>
+    </string-array>
+</resources>

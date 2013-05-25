@@ -1,0 +1,9 @@
+= Authors =
+Rand'OSM was created by:
+ * Stéphane COATHALEM
+ * Mathieu LUCAS
+ * Adrien PAVIE
+ * Alexis SCOLAN
+
+The development was made under the supervision of the I.T. department of the IUT de Vannes (http://www.iu-vannes.fr/)
+The project was launched by the town of Arradon (http://www.arradon.com/)

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<poi-categories>
+    <category id="hosting" name="Hébergement">
+        <type id="hostel" name="Hôtel" />
+        <type id="campsite" name="Camping" />
+        <type id="guesthouse" name="Gîte" />
+    </category>
+    <category id="dining" name="Restauration">
+        <type id="restaurant" name="Restaurant" />
+        <type id="coffee_shop" name="Café" />
+        <type id="pub" name="Bar" />
+        <type id="picnic_site" name="Site de pique-nique" />
+        <type id="drinking_water" name="Source d'eau potable" />
+    </category>
+    <category id="shop" name="Commerce">
+        <type id="bakery" name="Boulangerie" />
+        <type id="butchery" name="Boucherie" />
+        <type id="convenience" name="Épicerie" />
+        <type id="farm" name="Magasin à la ferme" />
+        <type id="greengrocery" name="Fruits et légumes" />
+        <type id="seafood" name="Poissonnerie" />
+        <type id="kiosk" name="Kiosque" />
+        <type id="supermarket" name="Supermarché" />
+    </category>
+    <category id="amenity" name="Services et facilités">
+        <type id="parking" name="Parking" />
+        <type id="bicycle_parking" name="Parking à vélos" />
+        <type id="bicycle_rental" name="Location de vélos" />
+        <type id="ferry_terminal" name="Terminal de Ferry" />
+        <type id="compressed_air" name="Borne de gonflage" />
+        <type id="toilets" name="Toilettes" />
+        <type id="tourism_information" name="Informations touristiques" />
+        <type id="park" name="Parc municipal" />
+        <type id="pitch" name="Terrain de sport" />
+        <type id="townhall" name="Mairie" />
+    </category>
+    <category id="places" name="Lieux remarquables">
+        <type id="monument" name="Monument historique" />
+        <type id="memorial" name="Mémorial" />
+        <type id="museum" name="Musée" />
+        <type id="windmill" name="Moulin" />
+        <type id="lighthouse" name="Phare" />
+        <type id="water_lock" name="Écluse" />
+        <type id="prehistoric_site" name="Site préhistorique" />
+        <type id="bunker" name="Bunker" />
+        <type id="artwork" name="Oeuvre d'art" />
+    </category>
+    <category id="natural" name="Nature">
+        <type id="beach" name="Plage" />
+        <type id="cliff" name="Falaise" />
+        <type id="point_of_view" name="Point de vue" />
+    </category>
+</poi-categories>

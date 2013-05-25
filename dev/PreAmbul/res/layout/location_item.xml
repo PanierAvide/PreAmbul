@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/RootView"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/border"
+    android:orientation="vertical"
+    android:padding="@dimen/ListView_Margin" >
+
+    <ImageView
+        android:id="@+id/locationLogo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:adjustViewBounds="true"
+        android:contentDescription="@string/description_ListItem_Logo"
+        android:maxHeight="60dp"
+        android:maxWidth="60dp"
+        android:src="@drawable/logo" />
+    
+    <TextView
+        android:id="@+id/locationName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/locationLogo"
+        android:paddingLeft="@dimen/ListView_Margin"
+        android:text="@string/name_ListItem_Text1"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView
+        android:id="@+id/locationVersion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/locationName"
+        android:layout_below="@+id/locationName"
+        android:paddingLeft="@dimen/ListView_Margin"
+        android:text="@string/name_ListItem_Text2" />
+
+    <ImageView
+        android:id="@+id/locationUpdate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:adjustViewBounds="true"
+        android:maxHeight="60dp"
+        android:maxWidth="60dp"
+        android:src="@android:drawable/ic_menu_rotate"
+        android:visibility="invisible" />
+
+</RelativeLayout>
+

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory 
+        android:title="@string/prefs_cat_general"
+        android:key="prefs_cat_general">
+        
+        <CheckBoxPreference 
+            android:key="checkUpdatesOnStart"
+            android:summary="@string/prefs_item_updates_desc"
+            android:title="@string/prefs_item_updates"
+            android:defaultValue="true"
+        />
+            
+    </PreferenceCategory>
+
+    <PreferenceCategory 
+        android:title="@string/prefs_cat_map"
+        android:key="prefs_cat_map">
+        
+        <CheckBoxPreference 
+            android:key="displayExcursionsBeforeMap"
+            android:summary="@string/prefs_item_excursions_before_map_desc"
+            android:title="@string/prefs_item_excursions_before_map"
+            android:defaultValue="false"
+        />
+
+        <CheckBoxPreference 
+            android:key="displayCompass"
+            android:summary="@string/prefs_item_compass_desc"
+            android:title="@string/prefs_item_compass"
+            android:defaultValue="true"
+        />
+        
+        <CheckBoxPreference 
+            android:key="displayBookmarksButton"
+            android:summary="@string/prefs_item_bookmarks_button_desc"
+            android:title="@string/prefs_item_bookmarks_button"
+            android:defaultValue="true"
+        />
+        
+        <PreferenceScreen
+			android:title="@string/prefs_cat_pois"
+			android:key="prefs_cat_pois"
+			android:persistent="false">
+			        <intent android:action="net.line2soft.preambul.views.PoiPreferenceActivity"/>
+			
+		</PreferenceScreen>
+
+    </PreferenceCategory>
+
+    <PreferenceCategory 
+        android:title="@string/prefs_cat_excursions"
+        android:key="prefs_cat_excursions">
+        
+        <ListPreference
+			android:title="@string/prefs_item_excursions_distance_poi"
+			android:summary="@string/prefs_item_excursions_distance_poi_desc"
+			android:key="prefs_item_excursions_distance_poi"
+			android:entries="@array/distance_poi"
+			android:entryValues="@array/distance_poi"
+			android:defaultValue="50" />
+
+    </PreferenceCategory>
+
+</PreferenceScreen>
