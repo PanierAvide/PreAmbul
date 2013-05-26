@@ -61,9 +61,14 @@
         <activity
             android:name="net.line2soft.preambul.views.SlippyMapActivity"
             android:label="@string/title_activity_SlippyMapActivity"
-            android:launchMode="singleTask"
             android:theme="@android:style/Theme.Black.NoTitleBar" >
         </activity>
+        <!--activity
+            android:name="net.line2soft.preambul.views.SlippyMapActivity"
+            android:label="@string/title_activity_SlippyMapActivity"
+            android:launchMode="singleTask"
+            android:theme="@android:style/Theme.Black.NoTitleBar" >
+        </activity-->
         <activity
             android:name="net.line2soft.preambul.views.ExcursionInfoActivity"
             android:label="@string/title_activity_excursion_info" >
